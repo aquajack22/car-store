@@ -1,0 +1,16 @@
+{
+	"request":{
+		"method":"GET",
+		"urlPath": "/SHC/api/v1/cars/info"
+	},
+	"response":{
+		"status": 200,
+		"bodyFileName": "/warehouses.json",
+		"headers": {
+			"Content-Type": "application/json",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Allow-Headers": "content-type",
+			"Access-Control-Allow-Methods": "GET"
+		}
+	}
+}

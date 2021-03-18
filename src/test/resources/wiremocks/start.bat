@@ -1,0 +1,1 @@
+java -jar wiremock-standalone-2.27.2.jar --port 8096 --https-port 8097 --verbose
