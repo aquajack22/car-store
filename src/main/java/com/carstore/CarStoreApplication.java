@@ -1,4 +1,4 @@
-package com.carstore.carstore;
+package com.carstore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
