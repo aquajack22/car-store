@@ -40,7 +40,7 @@ export type CartItemType = {
 
 
 const getProducts = async() : Promise<CartItemType[]> => 
-  await(await fetch('http://localhost:8096/SHC/api/v1/cars/info')).json();
+  await(await fetch('http://localhost:6039/SHC/api/v1/warehouse/info')).json();
 
   
 
