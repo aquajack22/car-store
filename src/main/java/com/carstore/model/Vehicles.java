@@ -11,11 +11,13 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Warehouse {
-    
+public class Vehicles {
     @Id
     private long id;
-    private String name;
-    private Location location;
-    private Cars cars ;
+    private String make;
+    private String model;
+    private int year_model;
+    private double price;
+    private boolean licensed;
+    private String date_added;
 }
