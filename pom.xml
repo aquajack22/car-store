@@ -12,7 +12,7 @@
 	<artifactId>car-store</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>car-store</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Car store to buy second hand cars</description>
 	<properties>
 		<java.version>8</java.version>
 	</properties>
