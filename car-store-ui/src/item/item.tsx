@@ -2,7 +2,7 @@ import Button from '@material-ui/core/Button';
 //types
 import { VehicleType } from '../App';
 //styles
-import { Wrapper } from './item.styles';
+import { Wrapper } from './Item.styles';
 
 
 
@@ -16,7 +16,7 @@ const Item: React.FC<Props> = ({item, handleAddToCart})  => (
         <div>
             <p>{item.make}</p>
             <h3>{item.model}</h3>
-            <p>${item.price}</p> 
+            <p>{item.price}</p> 
                          
         </div>
         <Button onClick={()=> handleAddToCart(item)}>Add to cart</Button> 
